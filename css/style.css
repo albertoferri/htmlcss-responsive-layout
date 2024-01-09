@@ -52,6 +52,19 @@ nav img{
     margin-bottom: 50px;
 }
 
+.prova0{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.prova{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
 .features-card{
     margin-top: 70px;
     background-color: #b5ddff;
@@ -245,7 +258,7 @@ nav img{
     background-color:#9792e4;
     padding: 10px;
     border-radius: 35px;
-    width: 90%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -271,9 +284,9 @@ nav img{
 .benefits{
     background-color: #9792e4;
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     gap: 15px;
 
     margin-bottom: 20px;
@@ -296,7 +309,7 @@ nav img{
     
     border-radius: 25px;
     background-color: white;
-    width: 80%;
+    width: 100%;
 }
 
 .benefit-test{
@@ -312,6 +325,13 @@ nav img{
 
 .benefit-card:last-of-type{
     margin-bottom: 10px;
+}
+
+.prova3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
 }
 
 /* fine sezione benefits */
@@ -456,18 +476,15 @@ footer{
 
     .features-card.big{
         width: 480px;
-        flex-grow: 2;
     }
 
     .features-card.small{
         width: 240px;
-        flex-grow: 1;
         margin-top: 70px;
     }
 
     .prova{
         display: flex;
-        flex-grow: 1;
         gap: 10px;
         margin: 0;
     }
@@ -490,5 +507,14 @@ footer{
     .features-2ndblock .square{
         align-self: flex-start;
     }  
+
+    .prova0{
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    
 
 }
