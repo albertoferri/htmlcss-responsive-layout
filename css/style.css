@@ -224,7 +224,7 @@ nav img{
     gap: 30px;
     
     padding: 5px 30px;
-    margin-top: 50px;
+    margin: 50px 0 50px;
 }
 
 .testimonials h3{
@@ -556,4 +556,54 @@ footer{
     .get-started h2{
         padding: 0;
     }
+}
+
+
+/* stilizzazione viewport laptop 992px */
+@media screen and (min-width:992px){
+
+    .features-card.big{
+        flex-direction: row;
+    }
+
+    .planning{
+        flex-direction: row;
+        padding: 100px;
+    }
+    
+    .planning img{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .planning-info{
+        width: 80%;
+    }
+
+    .planning-card{
+        width: 100%;
+        margin: 100px 0 0;
+    }
+
+
+    .profile-card{
+        width: 80%;
+    }
+
+
+    .prova3{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        gap: 50px;
+    }
+
+
+    .prova4{
+        width: 400px;
+    }
+
+    .review{
+        margin-top: 40px;
+    }
+
 }
