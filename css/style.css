@@ -60,6 +60,7 @@ nav img{
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .features-card h2{
@@ -102,13 +103,22 @@ nav img{
     padding-bottom: 0;
 }
 
-.features-2ndblock img{
+/* .features-2ndblock img{
     width: 100%;
     padding-bottom: 0;
 
     position: relative;
     top: 15px;
+} */
+
+/* test */
+.features-2ndblock .square{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 128, 0, 0.723);
+    
 }
+
 
 .features-logocard .fa-file-code-o{
    font-size: 82px;
@@ -142,6 +152,170 @@ nav img{
 
 .planning{
     background-color: #9792e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning img{
+    width: 100%;
+    padding: 50px 25px;
+}
+
+.planning h2{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.planning p{
+    padding: 30px 32px;
+    line-height: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.planning-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 35px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.planning-card p{
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.planning-card h3{
+    text-align: center;
+    font-weight: 700;
+    color: black;
 }
 
 /* fine sezione planning */
+
+/* inizio sezione testimonials */
+
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    padding: 5px 30px;
+    margin-top: 50px;
+}
+
+.testimonials h3{
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.testimonials h2{
+    color: #9792e4;
+    font-size: 30px;
+    text-align: center;
+}
+
+.testimonials p{
+    padding: 0 30px 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.profile-pic{
+    /* test */
+    width: 150px;
+    height: 150px;
+    background-color: rgba(165, 42, 42, 0.764);
+    padding-top: 10px;
+}
+
+
+.profile-card{
+    background-color:#9792e4;
+    padding: 10px;
+    border-radius: 35px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card p{
+    color: white;
+    padding-top: 20px;
+}
+
+.profile-card h3{
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/* fine sezione testimonials */
+
+/* inizio sezione benefits */
+
+.benefits{
+    background-color: #9792e4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.benefits h2{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
+    padding: 20px 30px;
+}
+
+.benefit-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 25px;
+    background-color: white;
+    width: 80%;
+}
+
+.benefit-test{
+    /* test */
+    background-color: #9792e4;
+    border-radius: 35px;
+    width: 80%;
+    height: 50px;
+
+    margin: 10px;
+    
+}
+
+.benefit-card:last-of-type{
+    margin-bottom: 10px;
+}
+
+
+/* fine sezione benefits */
+
+
+
