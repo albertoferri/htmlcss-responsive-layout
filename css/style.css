@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* inizio navbar */
+
+/* navmenu nascosto in modalità mobile e tablet */
+.hidden-menu{
+    display: none;
+}
+
+nav{
+    background-color: #0084fd;
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+}
+
+nav img{
+    padding: 10px;
+}
+
+.btn-menu .fa-bars{
+    font-size: 22px;
+    color: white;
+    padding: 18px;
+}
+
