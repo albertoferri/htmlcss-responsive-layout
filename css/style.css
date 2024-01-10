@@ -240,17 +240,17 @@ nav img{
 }
 
 .testimonials p{
-    padding: 0 30px 10px;
+    padding: 0 20px 10px;
     line-height: 30px;
     text-align: center;
 }
 
-.profile-pic{
-    /* test */
+
+.profile-pic img{
     width: 150px;
     height: 150px;
-    background-color: rgba(165, 42, 42, 0.764);
-    padding-top: 10px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -283,10 +283,6 @@ nav img{
 
 .benefits{
     background-color: #9792e4;
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     gap: 15px;
 
     margin-bottom: 20px;
@@ -305,22 +301,50 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     
     border-radius: 25px;
     background-color: white;
     width: 100%;
+    height: 400px;
 }
 
 .benefit-test{
-    /* test */
-    background-color: #9792e4;
     border-radius: 35px;
     width: 80%;
     height: 50px;
 
-    margin: 10px;
-    
+    margin: 10px;  
 }
+
+.benefit-test:first-child{
+    font-size: 36px;
+    color: #9792e4;
+    font-weight: 700;
+}
+
+.benefit-test:nth-child(2){
+    color: #9792e4;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.benefit-test:nth-child(3){
+    min-height: 120px;
+    color: #567595;
+
+}
+
+.benefit-test:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #9792e4;
+    color: white;
+    font-weight: 700;
+}
+
 
 .benefit-card:last-of-type{
     margin-bottom: 10px;
@@ -349,45 +373,63 @@ nav img{
 }
 
 .text-test1{
-    /* test */
-    background-color: rgba(137, 43, 226, 0.81);
-    height: 480px;
+    height: auto;
     border-radius: 25px;
     margin-bottom: 10px;
+    line-height: 30px;
+    padding-top: 10px;
 }
 
 .text-test2{
-    /* test */
-    background-color: rgba(192, 43, 226, 0.81);
-    height: 360px;
+    height: auto;
     border-radius: 25px;
     margin-bottom: 10px;
+    line-height: 30px;
+    padding-top: 10px;
 }
 
 .review{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     margin-bottom: 20px;
 }
 
-.review *{
-    background-color: aqua;
-}
 
-.review .img-review{
-    height: 180px;
+.review .img-review img{
     width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .review .paragr-review{
-    height: 140px;
-    width: 300px;
+    min-height: 140px;
+    width: 280px;
+}
+
+.review .paragr-review p{
+    line-height: 30px;
+    font-size: 30px;
+    color: #9792e4;
+    font-weight: 700;
 }
 
 .review .findme{
     height: 35px;
-    width: 180px;
+    width: 200px;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-linkedin{
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -519,6 +561,11 @@ footer{
         width: 70%;
     }
 
+    .marks{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
     .benefits h2{
         font-size: 32px;
     }
@@ -550,6 +597,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        gap: 30px;
     }
 
     .get-started h2{
