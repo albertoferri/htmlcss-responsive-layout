@@ -84,6 +84,7 @@ nav img{
 
 .features-card p{
     color: #567595;
+    line-height: 30px;
 }
 
 .features-card *{
@@ -559,6 +560,11 @@ footer{
         width: 66.666%;
     }
 
+    .features-2ndblock img {
+        width: 50%;
+        height: auto;
+    }
+
     .prova0 .features-card.small{
         width: 33.333%;
         margin-top: 70px;
@@ -675,6 +681,7 @@ footer{
 
     .features-2ndblock img{
         top: 20px;
+        width: 100%;
     }
 
     .planning{
