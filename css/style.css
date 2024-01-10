@@ -206,6 +206,16 @@ nav img{
     color: black;
 }
 
+.fa-arrow-down-long{
+    color: black;
+    background-color: #9792e4;
+    font-size: 20px;
+    padding: 10px 12.5px;
+    border-radius: 50%;
+
+}
+
+
 /* fine sezione planning */
 
 /* inizio sezione testimonials */
