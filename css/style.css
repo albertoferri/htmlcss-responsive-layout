@@ -16,8 +16,13 @@ body{
     display: none;
 }
 
-nav{
+header{
     background-color: #0084fd;
+    height: 60px;
+}
+
+
+nav{
     height: 60px;
     width: 100%;
 
@@ -601,6 +606,7 @@ footer{
     .marks{
         font-size: 30px;
         font-weight: 700;
+        vertical-align: middle;
     }
 
     .benefits h2{
@@ -633,7 +639,7 @@ footer{
     .about-us{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 30px;
     }
 
@@ -646,8 +652,13 @@ footer{
 /* stilizzazione viewport laptop 992px */
 @media screen and (min-width:992px){
 
+
+    
     nav{
-        padding: 0 10px;
+        /* padding: 0 10px; */
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hidden-menu{
@@ -675,6 +686,13 @@ footer{
     }
 
 
+    .features{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
     .features-card.big{
         flex-direction: row;
     }
@@ -686,7 +704,7 @@ footer{
 
     .planning{
         flex-direction: row;
-        padding: 100px;
+        padding: 100px 150px;
     }
     
     .planning img{
@@ -704,8 +722,11 @@ footer{
     }
 
 
-    .profile-card{
-        width: 80%;
+    .testimonials{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
     }
 
 
@@ -713,6 +734,10 @@ footer{
         display: grid;
         grid-template-columns: repeat(3, 30%);
         gap: 50px;
+
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -722,6 +747,10 @@ footer{
 
     .review{
         margin-top: 40px;
+    }
+
+    .about-us{
+        justify-content: space-around;
     }
 
 }
@@ -742,11 +771,22 @@ footer{
     }
 
     .features{
-        padding: 0 100px;
+        padding: 0;
     }
 
-    .prova3{
-        padding: 20px 100px 50px;
+
+    .testimonials{
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .about-us{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        padding: 0;
     }
 
 }
