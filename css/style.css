@@ -60,7 +60,7 @@ nav img{
     margin-bottom: 50px;
 }
 
-.prova0{
+.box-features{
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -369,7 +369,7 @@ nav img{
     margin-bottom: 10px;
 }
 
-.prova3{
+.box-benefit{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -413,6 +413,16 @@ nav img{
     gap: 25px;
     margin-bottom: 20px;
 }
+
+#mark-pic{
+    color: #9792e4;
+    font-size: 85px;
+    
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+}
+
 
 
 .review .img-review img{
@@ -579,7 +589,7 @@ footer{
         height: auto;
     }
 
-    .prova0 .features-card.small{
+    .box-features .features-card.small{
         width: 33.333%;
         margin-top: 70px;
         height: auto;
@@ -587,7 +597,7 @@ footer{
         gap: 16px;
     }
 
-    .prova0{
+    .box-features{
         flex-direction: row;
         margin-top: 70px;
         justify-content: space-between;
@@ -606,7 +616,7 @@ footer{
         flex-direction: row;
     }
 
-    .prova2{
+    .box-mark{
         display: flex;
         flex-direction: column;
         width: 70%;
@@ -627,7 +637,7 @@ footer{
     }  
 
 
-    .prova3{
+    .box-benefit{
         flex-direction: row;
         display: grid;
         grid-template-columns: 49% 49%;
@@ -670,6 +680,10 @@ footer{
         margin-right: auto;
     }
 
+    nav img{
+        padding: 10px 0;
+    }
+
     .hidden-menu{
         display: flex;
         justify-content: center;
@@ -707,13 +721,13 @@ footer{
     }
 
     .features-2ndblock img{
-        top: 20px;
+        top: 30px;
         width: 100%;
     }
 
     .containerbox{
         flex-direction: row;
-        padding: 0;
+        padding: 50px 0;
         max-width: 900px;
         margin-right: auto;
         margin-left: auto;
@@ -747,7 +761,7 @@ footer{
     }
 
 
-    .prova3{
+    .box-benefit{
         display: grid;
         grid-template-columns: repeat(3, 30%);
         gap: 50px;
@@ -758,7 +772,7 @@ footer{
     }
 
 
-    .prova4{
+    .box-text{
         width: 400px;
     }
 
@@ -780,10 +794,7 @@ footer{
         padding: 10px 0;
     }
 
-    .features-2ndblock img{
-        top: 15px;
-    }
-
+    
     .features{
         padding: 0;
     }
